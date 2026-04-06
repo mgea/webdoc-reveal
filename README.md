@@ -6,6 +6,11 @@ Ejercicios usando librería Reveal.js
 
 ## 
 
+- Estructura minima de Slides -> https://mgea.github.io/webdoc-reveal/0min
+- Estructura minima con barra navegación  -> https://mgea.github.io/webdoc-reveal/0min-nav
+
+
+
 - Welcome (en [slide.com](https://slides.com/)) -> https://slides.com/miguelgea/welcome-21907a/fullscreen
 - Welcome Slide clone -> https://mgea.github.io/webdoc-reveal/welcome-slide-clone
 - VideoShow - > https://mgea.github.io/webdoc-reveal/videoShow
