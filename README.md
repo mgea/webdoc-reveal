@@ -19,3 +19,10 @@ Ejercicios usando librería Reveal.js
 > Integración de audio y video
 > Estrucrtura lineal
 > Faltaría crear menú de navegación (uso navegación estándar) 
+
+
+Publicaciones en Codepen.io sobre Webdoc: 
+
+* https://codepen.io/collection/dGRBOy
+
+  
