@@ -5,6 +5,30 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>RevealJS-play</title>
+<style>
+/* Importar desde Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Space+Mono&display=swap');
+
+:root {
+    --fuente-titulo: 'Orbitron', sans-serif;
+    --fuente-cuerpo: 'Space Mono', monospace;
+    --color-neon: #00f3ff; /* Cian futurista */
+}
+
+h1, h2, h3 {
+    font-family: var(--fuente-titulo);
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: var(--color-neon);
+    text-shadow: 0 0 10px rgba(0, 243, 255, 0.5);
+}
+
+p {
+    font-family: var(--fuente-cuerpo);
+    color: #e0e0e0;
+    line-height: 1.6;
+}
+</style> 
 </head>
 <body>
     <h1> Webdoc usando RevealJS </h1>
