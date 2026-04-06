@@ -1,0 +1,226 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <title>Arzach-Moebius i-doc</title>
+  <meta name="author" content="Miguel Gea">
+  <meta name="description" content="Interactive Webdoc using RevealJS versión 1.0, marzo 2026">
+  <meta name="keywords" content="HTML, CSS, JavaScript, RevealJS">
+
+<!--  webdoc interactivo estructura lineal con incrustación multimedia -->
+<!--  Uso de RevealJS                                                  -->
+<!--  moebius::arzach viaje en silencio                                -->    
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js/dist/reveal.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js/dist/theme/black.css">
+
+  <style>
+    .small { font-size: 0.7em; }
+    p {font-size: 0.6em;}
+    .h1 {text-transform:lowercase}
+    .highlight { color: #7dd3fc; }
+
+    section { text-align: left; }
+
+  .glass {
+  background: rgba(255, 255, 255, 0.28);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 16px;
+
+  position: absolute;
+  bottom: -600px;  /* revealjs controla la posición de los elementos **/
+  left: 0;
+  width: 100%;
+
+  color: rgb(15, 12, 12);
+  padding: 20px;
+  width: 100%;
+  z-index: 999;
+}
+
+
+  </style>
+
+
+</head>
+
+<body>
+
+
+<!------------------------------>
+
+<div class="reveal"> 
+  <div class="slides">
+
+<!-- 0 INTRO PORTADA -->
+<section data-background-video="https://cdn.pixabay.com/video/2024/06/07/215697_large.mp4" 
+            data-background-video-loop data-background-video-muted>
+    <p>Moebius::arzarch </p>
+    <audio src="https://cdn.pixabay.com/download/audio/2026/01/25/audio_23ee95e41e.mp3" autoplay></audio>
+    <h1>Viaje en silencio </h1>
+    <h3> </h3>
+    <p class="small">La narrativa sin palabras por el espacio</p>
+    <p class="small highlight "> Creación Multimedia y Periodismo Multiplataforma, 2026</p>
+
+</section>
+
+<!-- 1 PERSONAJE ARZACH -->
+<section data-background="https://images.squarespace-cdn.com/content/v1/54fc8146e4b02a22841f4df7/1651521936220-LP91Z1ZDPIOL17EY9MKA/Art_of_Moebius_.jpeg">
+
+ <audio src="https://cdn.pixabay.com/download/audio/2021/08/04/audio_c14d9af256.mp3" autoplay loop></audio>
+
+  <div class="glass">
+    <p> <span class="highlight">Arzach</span> es una obra de Jean Giraud (Moebius) 
+    publicada en <i>Metal Hurlant</i> </p>
+    <p class="texto">
+    No tiene diálogos: el guión es puramente visual.
+     </p>
+  </div>
+
+</section>
+
+<!-- 2 CONCEPTO DE DISEÑO -->
+<section data-background="https://images4.alphacoders.com/224/thumb-1920-224344.jpg">
+   
+     <audio src="https://cdn.pixabay.com/download/audio/2026/03/05/audio_5a1456ffdb.mp3" autoplay></audio>
+
+
+    <p class="glass">  La continuidad es emocional, no lineal  </p>
+  
+</section>
+
+
+<!-- 3 DISEÑO PERSONAJE VIDEO https://www.youtube.com/watch?v=zk3uwH-b0oQ-->
+
+<section data-background-iframe="https://www.youtube.com/embed/zk3uwH-b0oQ?start=5&end=100&autoplay=1&mute=0" 
+         data-background-interactive>
+  <p class="glass">EL diseño del personaje: Arzach </p>
+</section>
+
+
+
+
+<!-- 4 VIDEO ARZACH -->
+
+<section data-background-iframe="https://www.youtube.com/embed/oMJ9WRj0XiQ?start=90&end=130&autoplay=1&mute=0" 
+         data-background-interactive>
+  <p class="glass">Arzach la sombra del guerrero </p>
+</section>
+
+
+
+<!-- 5 Combinar imagen con DOS FRAGMENTOS DE VIDEO  -->
+<section data-background="https://images.squarespace-cdn.com/content/v1/54fc8146e4b02a22841f4df7/1617119778643-S8UOGFJRUA446KBN2C3Z/Art_of_Jean_Giraud_Moebius_26.jpeg"> 
+
+
+<iframe width="320" height="180"  style="margin-top: 30%; margin-left: 60%;" 
+    src="https://www.youtube.com/embed/bCSEJfsnz8I?si=eEQD8B-UtzQR5fw9" 
+    frameborder="0" allow="accelerometer; autoplay; 
+     clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin">
+</iframe>
+
+<iframe width="320" height="180" style="margin-top: 0%; margin-left: 10%; " 
+             src="https://www.youtube.com/embed/TCTjETqCfqU?si=FXoX9ETjC5Q69FDW&amp;controls=0&amp;start=6&autoplay=1&mute=1" 
+             frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; 
+             web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+</section>
+
+<!-- 6 Incrustar animación   -->
+
+ <section data-background="https://images.squarespace-cdn.com/content/v1/54fc8146e4b02a22841f4df7/1482674927169-YGVJVZOMFGA0A2KGHYYD/moebius03_big.jpg">
+ 
+    <audio src="https://cdn.pixabay.com/download/audio/2025/08/08/audio_a4bfc28b43.mp3" autoplay> </audio>
+<style>
+.float {
+  animation: floatMove 8s ease-in-out infinite;
+}
+
+@keyframes floatMove {
+  0%   { transform: translate(0, 0); }
+  50%  { transform: translate(300px, -20px); }
+  70%  { transform: translate(500px, 40px); }
+  100% { transform: translate(0, 0); }
+}
+</style>
+
+<img src="https://raw.githubusercontent.com/mgea/PeriodismoMultimedia/master/i-doc/moebius/arzach_fly.png" class="float" style="width:60%;">
+  
+</section>
+
+
+
+<!-- 7 Incrustar página por partes -->
+<!--   uso de clase r-stack para apilar imágenes----> 
+    
+ <section data-background="https://images.squarespace-cdn.com/content/v1/54fc8146e4b02a22841f4df7/1482674927169-YGVJVZOMFGA0A2KGHYYD/moebius03_big.jpg">
+ 
+
+    <audio src="https://cdn.pixabay.com/download/audio/2025/08/08/audio_a4bfc28b43.mp3" autoplay> </audio>
+
+<div class="r-stack">
+    <img src="https://raw.githubusercontent.com/mgea/PeriodismoMultimedia/master/i-doc/moebius/comic_pg31bg.png" width="400" height="600">
+    <img class="fragment" src="https://raw.githubusercontent.com/mgea/PeriodismoMultimedia/master/i-doc/moebius/comic_pg31-up.png" width="400" height="600">
+    <img class="fragment" src="https://raw.githubusercontent.com/mgea/PeriodismoMultimedia/master/i-doc/moebius/comic_pg31-midleft.png" width="400" height="600">
+    <img class="fragment" src="https://raw.githubusercontent.com/mgea/PeriodismoMultimedia/master/i-doc/moebius/comic_pg31-midcent.png" width="400" height="600">
+    <img class="fragment" src="https://raw.githubusercontent.com/mgea/PeriodismoMultimedia/master/i-doc/moebius/comic_pg31-midright.png" width="400" height="600">
+    <img class="fragment" src="https://raw.githubusercontent.com/mgea/PeriodismoMultimedia/master/i-doc/moebius/comic_pg31-down.png" width="400" height="600">
+  </div>
+
+</section>
+
+
+
+<!-- 8 FULL YOOUTUBE VIDEO   -->
+<section data-background-iframe="https://www.youtube.com/embed/nBWIJTQPoxQ?si=XBFiYmGMLQYgKqVI" 
+         data-background-interactive>
+
+  <!---- full youtube video https://www.youtube.com/watch?v=nBWIJTQPoxQ de Art Shutter -->
+</section>
+
+
+
+<!-- 9 CREDITOS -->
+<section>
+  <h2>Créditos</h2>
+  <p>Autor: Miguel Gea, Creación Multimedia y Periodismo Multiplataforma, 2026 </p>
+  <p> Contenidos</p>
+  <ul class="small">
+    <li class="small">Videos <a href="https://www.youtube.com/watch?v=jNas99oEXBU" target="_blank"> BBC DOc </a></li>
+    <li class="small">Imágenes en <a href="https://characterdesignreferences.com/artist-of-the-week-3/moebius"> Grand porfolios</a></li>
+    <li class="small">Video <a href="https://www.youtube.com/watch?v=TCTjETqCfqU" target="_blank"> Moebius artwork</a></li>
+     <li class="small">Video <a href="https://www.youtube.com/watch?v=zk3uwH-b0oQ" target="_blank"> como diseñar el personaje </a></li>
+    
+  </ul>
+  <p> Repo <a href="https://mgea.github.io/webdoc-reveal/" target="_blank"> Github</a> </p>
+  <p><a href="#/0">Volver inicio</a></p>
+</section>
+
+
+
+</div>
+</div>
+
+<!------------ SCRIPTS --------------------------->
+
+<script src="https://cdn.jsdelivr.net/npm/reveal.js/dist/reveal.js"></script>
+<script>
+  Reveal.initialize({
+    hash: true,
+    transition: 'fade',
+    fragments: true,
+    autoPlayMedia: true,
+    controls: true,
+    progress: true
+  });
+</script>
+
+
+
+
+
+</body>
+</html>
