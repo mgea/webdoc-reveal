@@ -6,6 +6,7 @@ Ejercicios usando librería Reveal.js
 
 ## 
 
+- Welcome (en slide.com) -> https://slides.com/miguelgea/welcome-21907a/fullscreen
 - Welcome Slide clone -> https://mgea.github.io/webdoc-reveal/welcome-slide-clone
 - VideoShow - > https://mgea.github.io/webdoc-reveal/videoShow
 
