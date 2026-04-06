@@ -15,11 +15,9 @@ Ejercicios usando librería Reveal.js
 - Welcome Slide clone -> https://mgea.github.io/webdoc-reveal/welcome-slide-clone
 - VideoShow - > https://mgea.github.io/webdoc-reveal/videoShow
 
-
 ## Ejercicios  
 
 - Moebius::arzarch El viaje en silencio  https://mgea.github.io/webdoc-reveal/moebius
-
 
 > Integración de audio y video
 > Estrucrtura lineal
@@ -30,4 +28,8 @@ Publicaciones en Codepen.io sobre Webdoc:
 
 * https://codepen.io/collection/dGRBOy
 
-  
+
+## Documentación 
+
+* https://github.com/mgea/webdoc-reveal/wiki
+* https://revealjs.com/
